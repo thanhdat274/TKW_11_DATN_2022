@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.centerimage img {
+  margin: auto;
+}
+.formrmd input {
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.formrmd button:hover {
+  background-color: #00502b;
+  color: white;
+  transition: 0.4s;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 700px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
